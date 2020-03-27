@@ -1,6 +1,10 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
+
+/* .App {
+  text-align: center;
+} */
 
 html, body, #root {
   width: 100%;
@@ -15,6 +19,9 @@ html, body, #root {
   height: 100%;
   width: 100%;
   background: peachpuff;
+}
+.error {
+  color: red;
 }
 
 .submitBtn {
